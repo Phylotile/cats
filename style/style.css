@@ -45,10 +45,15 @@ button {
 .card_img {
     width: 100%;
 }
-.header_card svg {
+.heart_svg {
     position: absolute;
-    right: 32px;
     top: 34px;
+    right: 32px;
+}
+.sales_svg {
+    position: absolute;
+    top: 34px;
+    left: 37px;
 }
 .card_text {
     padding: 29px 33px 29px 29px;
@@ -142,9 +147,6 @@ button {
 .header_card:hover .card_desc:before {
     background: #FFFFFF;
 }
-
-
-
 .header_title {
     margin: 95px 0 40px;
 
